@@ -15,6 +15,7 @@ Bagels - No digit is correct""")
 def main():
     while True:
         num_guesses = 1
+        guess = ""
         secret = getSecretNumber()
         while num_guesses <= MAX_GUESSES:
             # Requesting for input
